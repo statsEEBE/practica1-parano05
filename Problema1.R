@@ -33,6 +33,6 @@ sd(mis_datos$cyl) "desviacion tipica"
 var(mis_datos$qsec)
 x <- mis_datos$qsec
 
-sum((x-mean(x))^2)/(length(x)-1) "="
+sum((x-mean(x))^2)/(length(x)-1) "sum((x-mean(x))^2)/(length(x)-1) = var(x)"
 var(x)
 
